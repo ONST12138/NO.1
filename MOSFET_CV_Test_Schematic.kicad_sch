@@ -1,0 +1,16 @@
+# MOSFET CV Test Schematic
+
+## Description
+This schematic includes the following components and configurations:
+
+1. **8-Channel Relay Matrix**: Used for switching multiple DUTs in testing environments.
+2. **STM32F407 Microcontroller**: The main control unit for processing signals and controlling the relay matrix.
+3. **MAX3232 RS232 Interface**: Utilized for serial communication with external devices.
+4. **LCR Bridge Connections**: For measuring inductance, capacitance, and resistance of the DUT.
+5. **DC Source Connections**: To provide necessary power to the circuit and DUT.
+6. **DUT Test Interface**: Connects to the device under test for evaluation.
+7. **Power Management Circuits**: To regulate and distribute power throughout the schematic.
+
+## Notes
+- Ensure proper connections and pin configurations according to the component datasheets.
+- Plan for adequate decoupling and protection for sensitive components.
